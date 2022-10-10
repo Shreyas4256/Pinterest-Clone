@@ -38,14 +38,7 @@ const FormLayout = () => {
         <Outlet />
       </div>
       <div className="form__footer">
-        <FooterIcon
-          icon={<GitHubIcon />}
-          href="https://www.github.com/Shreyas4256"
-        />
-        <FooterIcon
-          icon={<LinkedInIcon />}
-          href="https://www.linkedin.com/in/shreyas-sakate"
-        />
+      
       </div>
     </div>
   );
